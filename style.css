@@ -1,3 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(180, 154, 162);
+}
+
+nav {
+    display: flex;
+
+}
+
+nav a {
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+    border-radius: 999px;
+    border: 1px, solid transparent;
+    text-decoration: none;
+}
+
 #my_name {
     color: purple;
 }
@@ -5,9 +25,7 @@
 #my-story {
     color: rgb(36, 169, 187);
 }
-body{
-    background-color: rgb(180, 154, 162);
-}
+
 h1{
     color: brown;
 }
@@ -16,4 +34,32 @@ p{
 }
 h3{
     color: darkolivegreen;
+}
+.fa-envelope {
+    font-size: 50%;
+}
+a{
+    text-decoration: none;
+    color: chartreuse;
+    font-weight: bold;
+}
+
+/* Unvisited link */
+a link{
+    color: darkblue;
+}
+/* visited link */
+
+a:visited{
+    color: deeppink;
+}
+/* mouse over link*/
+
+a:hover{
+    color: brown;
+}
+
+/*selected link*/
+a:active{
+    color: blueviolet;
 }
