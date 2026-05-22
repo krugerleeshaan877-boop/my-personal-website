@@ -1,12 +1,18 @@
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(180, 154, 162);
+    background-color: rgb(160, 169, 185);
 }
 
 nav {
     display: flex;
+    justify-content: space-between;
+     background-color: rgb(0, 0, 0);
+}
 
+nav ul {
+    display: flex;
+    list-style-type: none;
 }
 
 nav a {
@@ -18,16 +24,31 @@ nav a {
     text-decoration: none;
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#name {
+    font-size: 100px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 500px;
+}
 #my_name {
     color: purple;
 }
 
 #my-story {
-    color: rgb(36, 169, 187);
+    color: rgb(36, 187, 142);
 }
 
 h1{
-    color: brown;
+    color: rgb(115, 48, 177);
 }
 p{
     color: blueviolet;
@@ -58,8 +79,51 @@ a:visited{
 a:hover{
     color: brown;
 }
-
+.name{
+    font-size: 300%;
+}
 /*selected link*/
 a:active{
     color: blueviolet;
+}
+
+
+.icons{
+    font-size: 200%;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
+button{
+    font-size: 40px;
+    color: brown;
+}
+#tech{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+.project{
+   background-color: rgb(17, 16, 16); 
+   width: 200px;
+   height: auto;
+   margin: 50px;
+}
+.project img{
+    width: 200px;
+    height: 100px;
+    border-radius: 0%;
+}
+.ptgh {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    font-size: 10px;
 }
